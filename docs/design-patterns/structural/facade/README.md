@@ -6,7 +6,7 @@ Provide a **simplified interface** to a complex subsystem.
 
 ---
 
-## Also Known Also
+## Also Known As
 
 - Front Controller (loosely related)
 
