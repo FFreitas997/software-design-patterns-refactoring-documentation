@@ -75,6 +75,19 @@ A comprehensive reference covering **software design patterns** (Creational, Str
 
 ---
 
+### 🔹 [Fundamentals](docs/fundamentals/README.md)
+
+> Core acronyms every developer should understand — spanning database operations, data modeling, transaction integrity, and code quality.
+
+| Concept | Domain | Description |
+|---|---|---|
+| [CRUD](docs/fundamentals/README.md#-crud) | Database Operations | Create, Read, Update, Delete — the four basic data operations |
+| [POJO](docs/fundamentals/README.md#-pojo) | Data Modeling | Plain Old Java Objects — framework-free, reusable data models |
+| [ACID](docs/fundamentals/README.md#-acid) | Transaction Integrity | Atomicity, Consistency, Isolation, Durability |
+| [SOLID](docs/fundamentals/README.md#-solid) | Code Quality | Five principles of robust object-oriented design |
+
+---
+
 ## 🛠️ Java Examples
 
 Every pattern and refactoring technique includes a complete, compilable Java example demonstrating the concept in practice. Examples are located alongside their respective `README.md` files.
@@ -91,6 +104,16 @@ java Strategy
 cd docs/refactoring/code-smells/bloaters
 javac BloatersExample.java
 java BloatersExample
+
+# Example: run the SOLID fundamentals demo
+cd docs/fundamentals/solid
+javac SolidExample.java
+java SolidExample
+
+# Example: run the ACID fundamentals demo
+cd docs/fundamentals/acid
+javac AcidExample.java
+java AcidExample
 ```
 
 ---
